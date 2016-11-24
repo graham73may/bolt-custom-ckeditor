@@ -1,10 +1,6 @@
-Bolt Extension Starter
+CKEditor replacement script
 ======================
 
-A starter skeleton for a Bolt v3.x Extension
+A Bolt CMS extension to replace the CKEditor instance in the backend with one that can be customised. 
 
-To get going run the following command, replacing the last argument with the name of your extension:
-
-`composer create-project --no-install bolt/bolt-extension-starter:^3.0 <newextname>`  
-
-For more information, see this page in the Bolt documentation: https://docs.bolt.cm/extensions/building-starter/about
+There is no config that gets turned in to the settings, styles, etc. You need to edit the `replace-ckeditor.js` script directly to suit your needs.
